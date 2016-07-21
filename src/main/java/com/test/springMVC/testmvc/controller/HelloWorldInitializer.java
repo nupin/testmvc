@@ -2,7 +2,7 @@ package com.test.springMVC.testmvc.controller;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.test.springMVC.testmvc.configuration.HelloWorldConfiguration;
+import com.test.springMVC.testmvc.configuration.TestConfiguration;
 
 
 public class HelloWorldInitializer extends
@@ -10,7 +10,7 @@ public class HelloWorldInitializer extends
 
 	@Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[] { HelloWorldConfiguration.class };
+        return new Class[] { TestConfiguration.class };
     }
   
     @Override
